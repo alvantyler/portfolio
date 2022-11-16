@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+</head>
+<body class="scroll-smooth">
+
+
+
+    <!--Header -->
+     <!--<section>
+           <div class="container md:mx-auto md:flex md:justify-between md:items-center m-7">
+            <div class="">Alva</div>
+            <div>
+                <ul class="flex justify-evenly">
+                    <li class="mx-4"><a href=""></a>Home </li>
+                    <li class="mx-4"><a href=""></a> About Me</li>
+                    <li class="mx-4"> <a href=""></a> Services</li>
+                    <li><a href=""></a>Work</li>
+                </ul>
+            </div>
+            <div>
+                <button class="animate-bounce h-6 px-2 py-1 border border-black">Resume</button>
+            </div>
+
+
+           </div>
+            
+     </section> -->
+     <section>
+     
+
+      <nav class="p-5 md:flex md:items-center md:justify-between">
+        <div class="flex justify-between items-center">
+          <span class="font-mono text-2xl"> Alva </span>
+          <span class="text-3xl cursor-pointer md:hidden">
+             <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+  
+        <ul class="text-black md:flex md:items-center items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 transition-all ease-in duration-500">
+          <li class="mx-4 my-6 md:my-0 cursor-pointer md:cursor-pointer"><a href="index.html">Home</a></li>
+          <li class="mx-4 my-6 md:my-0">About me</li>
+          <li class="mx-4 my-6 md:my-0">Services</li>
+          <li class="mx-4 my-6 md:my-0">Work</li>
+  
+        
+        </ul>
+      </nav>
+    
+     
+       
+     </section>
+
+    <!--Hero -->
+
+    <section class="flex flex-col justify-evenly items-center text-[30px] h-screen w-full mx-auto md:text-[67px]">
+        <div class="flex flex-wrap">
+            Hi, my name is Alvan Murigu. <br>
+            I'm a Software Developer
+        </div>
+        <div class="animate-bounce h-10 duration-700">
+           <a href="#about-me"> <img src="img/arrow-down-sign-to-navigate.png" alt="drop down" class="h-5 w-5"></a>
+        </div>
+       
+
+     </section>
+    <!--About me  -->
+    <section id=about-me class="w-full bg-yellow-400 h-screen">
+        <div>
+             <!--About-left-->
+             <div>
+                
+
+             </div>
+             <!--About right-->
+             <div>
+
+             </div>
+
+        </div>
+    </section>
+
+    <!--Services -->
+    <div id="services" class="">
+        <div class="container mx-auto">
+
+
+          <!-- top -->
+          <div class="flex flex-col gap-3 items-center">
+            <h1 class="text-black font-bold font-3xl md:font-bold md:text-5xl">SERVICES</h1>
+            
+            <p class="w-1/2 text-center">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          Dolore, nam. Vero deserunt iusto beatae corporis similique repellat, 
+          libero laborum hic sit veniam in fuga omnis tenetur ut, ea ad molestiae, atque 
+          natus eligendi? Quas corrupti expedita, repudiandae excepturi soluta porro ipsa alias reprehenderit! 
+          Alias distinctio vero, ex rem amet fuga.
+            </p>
+          </div>
+
+          <!--Bottom-->
+         
+          <div class="p-5 sm:p-0 sm:gap-0 flex flex-wrap justify-evenly md:gap-1">
+           
+            <!-- card Design-->
+            <div
+              class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 items-center bg-gradient-to-r from-cyan-500 to-blue-500">
+              <img class="w-10" src="img/coding.png" alt="" />
+              <h1 class="font-medium text-lg">Design</h1>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus 
+                illum sed, aspernatur fugiat autem minima eum dignissimos laudantium commodi ipsa do
+                lore? Obcaecati, deserunt? Iure earum reiciendis architecto at quae cum non, dicta recusandae, alias nihil
+                , ea vero. Ea fugiat error, expedita officia eum adipisci voluptate doloremque vel illo quos repellendus dolores
+                 perferendis ipsam sed non cumque incidunt nam cupiditate numquam explicabo? Quaerat laborum sunt sit recusandae 
+                 nihil beatae distinctio qui, repellat assumenda officia? Nemo delectus cumque ullam! Temporibus est pariatur nesciunt. 
+                 Cum eligendi sapiente fuga reprehenderit, 
+                sed nulla pariatur ex, quisquam eos facere vero ratione nesciunt, nihil sequi laboriosam dolores.
+              </p>
+              <a class="text-black font-semibold text-sm" href=""
+                >Read More</a
+              >
+            </div>
+            <!-- Card Development-->
+            <div
+              class="w-full text-white md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 items-center bg-gradient-to-r from-cyan-500 to-blue-500"
+            >
+              <img class="w-10" src="img/graphic-design.png" alt="" />
+              <h1 class="font-medium text-lg text-black">Development</h1>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus 
+                illum sed, aspernatur fugiat autem minima eum dignissimos laudantium commodi ipsa do
+                lore? Obcaecati, deserunt? Iure earum reiciendis architecto at quae cum non, dicta recusandae, alias nihil
+                , ea vero. Ea fugiat error, expedita officia eum adipisci voluptate doloremque vel illo quos repellendus dolores
+                 perferendis ipsam sed non cumque incidunt nam cupiditate numquam explicabo? Quaerat laborum sunt sit recusandae 
+                 nihil beatae distinctio qui, repellat assumenda officia? Nemo delectus cumque ullam! Temporibus est pariatur nesciunt. 
+                 Cum eligendi sapiente fuga reprehenderit, 
+                sed nulla pariatur ex, quisquam eos facere vero ratione nesciunt, nihil sequi laboriosam dolores.
+              </p>
+              <a class="font-semibold text-sm text-black" href=""
+                >Read More</a
+              >
+            </div>
+            <!-- Card Deployment-->
+            <div
+              class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 items-center bg-gradient-to-r from-blue-600 to-violet-600"
+            >
+              <img class="w-10" src="img/ux-design.png" alt="" />
+              <h1 class="font-medium text-lg text-black">Deployment</h1>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus 
+                illum sed, aspernatur fugiat autem minima eum dignissimos laudantium commodi ipsa do
+                lore? Obcaecati, deserunt? Iure earum reiciendis architecto at quae cum non, dicta recusandae, alias nihil
+                , ea vero. Ea fugiat error, expedita officia eum adipisci voluptate doloremque vel illo quos repellendus dolores
+                 perferendis ipsam sed non cumque incidunt nam cupiditate numquam explicabo? Quaerat laborum sunt sit recusandae 
+                 nihil beatae distinctio qui, repellat assumenda officia? Nemo delectus cumque ullam! Temporibus est pariatur nesciunt. 
+                 Cum eligendi sapiente fuga reprehenderit, 
+                sed nulla pariatur ex, quisquam eos facere vero ratione nesciunt, nihil sequi laboriosam dolores.</p>
+              <a class="text-black font-semibold text-sm hover:cursor-pointer hover:border-b" href="">Read More</a
+              >
+            </div>
+          
+          
+          </div>
+        </div>
+      </div>
+
+    <!--work -->
+
+    <section id="works" class="py-40">
+
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="font-bold text-5xl">PORTFOLIO</h1>
+          <h1 class="text-3xl dark:text-black">Works & Projects</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            , ea vero. Ea fugiat error, expedita officia eum adipisci voluptate doloremque vel illo quos repellendus dolores
+            perferendis ipsam sed non cumque incidunt nam cupiditate numquam explicabo? Quaerat laborum sunt sit recusandae 
+            nihil beatae distinctio qui, repellat assumenda officia? Nemo delectus cumque ullam! Temporibus est pariatur nesciunt. 
+            Cum eligendi sapiente fuga reprehenderit, 
+           sed nulla pariatur ex, quisquam eos facere vero ratione nesciunt, nihil sequi laboriosam dolores.
+                
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between gap-5">
+          <!-- card -->
+          <div
+            class="flex flex-col items-center gap-3 w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+          <h1 class="text-2xl font-semibold">To Do List</h1>
+          <a href="https://quizzical-borg-78b265.netlify.app/"> <img src="img/Screenshot 2022-11-14 at 16.36.16.png" /></a>
+          
+          </div>
+          <!-- card -->
+          <div
+            class="flex flex-col items-center gap-3 w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+            <h1 class="text-2xl font-semibold">Menu</h1>
+            <a href="https://eloquent-tesla-12051a.netlify.app/"><img src="img/Screenshot 2022-11-14 at 17.03.33.png" /></a>
+            
+          </div>
+          <!-- card -->
+          <div
+            class="flex flex-col items-center gap-3 w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+            <h1 class="text-2xl font-semibold">Color Picker</h1>
+            <a href="https://confident-hoover-4a6f27.netlify.app/"> <img src="img/Screenshot 2022-11-14 at 17.05.01.png" /></a>
+           
+          </div>
+          <!-- card -->
+          <div
+            class="flex flex-col items-center gap-3 w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110">
+            <h1 class="text-2xl font-semibold">Scroll Projects</h1>
+            <a href="https://distracted-shirley-1be9ff.netlify.app/"><img src="img/Screenshot 2022-11-14 at 17.06.02.png" /></a>
+            
+          </div>
+        
+        
+         
+      
+      
+    </div>
+
+    </section>
+        
+    <!--CTA -->
+    <section id="contact">
+        <div class="container mx-auto flex items-center flex-col gap-3 justify-evenly text-gray-500  h-[200px] my-20">
+          <h2 class="text-4xl md:text-5xl font-bold text-black ">Contact</h2>
+          <p>Let me build your next beautiful website</p>
+         
+ 
+         <button class="animate-bounce text-white bg-gradient-to-r from-blue-800 to-indigo-900 px-2 py-2 rounded transition-all hover:scale-x-100"><a href="contact.html">Let's Connect</a></button>
+
+        </div>
+       
+    </section>
+
+    <!--Footer -->
+
+    <section id="footer" class="h-[70px] mt-10"> 
+      <div class="w-full flex justify-center align-center">
+        <ul class="flex justify-center gap-3 w-full md:justify-center md:gap-3">
+          <li class="animate-spin hover:animate-none cursor-pointer h-6 w-6 md:h-10 md:w-10"><a href="https://twitter.com/ALVAN_MURIGU"><img src="img/twitter.png" alt=""></a></li>
+          <li class="animate-spin hover:animate-none cursor-pointer h-6 w-6 md:h-10 md:w-10"><a href="https://github.com/alvantyler"><img src="img/github.png" alt=""></a></li>
+          <li class="animate-spin hover:animate-none cursor-pointer h-6 w-6 md:h-10 md:w-10"><a href="https://www.linkedin.com/in/alvan-murigu-47b5611a8/"><img src="img/linkedin.png" alt=""></a></li>
+          <li class="animate-spin hover:animate-none cursor-pointer h-6 w-6 md:h-10 md:w-10"><a href="alvanmurigu@gmail.com"><img src="img/email.png" alt=""></a></li>
+
+         
+
+
+        </ul>
+      </div>
+      <div class="p-4 flex flex-col items-center md:justify-around md:flex-row">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 All Rights Reserved.
+        </span>
+        <ul class="flex flex-wrap items-center  text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+            <li>
+                <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+            </li>
+            <li>
+                <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+            </li>
+            
+            <li>
+                <a href="#" class="hover:underline">Contact</a>
+            </li>
+        </ul>
+
+      </div>
+    </section>
+    
+    <script>
+
+      function Menu(e){
+        
+        let list = document.querySelector('ul');
+
+        e.name === 'menu-outline' ? (e.name = "close-outline", list.classList
+        .add('top-(80px)'),list.classList.add("opacity-100")) : (e.name = "menu-outline", list.classList.
+        remove('top-[80px]'),list.classList.remove("opacity-100")) 
+
+      }
+
+
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+  
+</body>
+</html>
